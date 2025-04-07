@@ -107,7 +107,6 @@ steps:
     repo: registry.cn-beijing.aliyuncs.com/yunionio/apigateway
     registry: registry.cn-beijing.aliyuncs.com
     dockerfile: build/docker/Dockerfile.apigateway
-    tags: "${DRONE_TAG}"
     username:
       from_secret: docker_username
     password:
