@@ -175,7 +175,6 @@ def __allocate_ip_block(block_from, num_blocks_to_alloc, min_block_mask_bits, sr
             new_alloc.mask = min_block_mask_bits
             new_alloc.save()
             logging.info('Allocated new block of addresses: %s' % new_alloc)
-            new_allocations.append(new_alloc)
             if len(new_allocations) == num_blocks_to_alloc:
                 return new_allocations # successfully allocated all requested blocks
 
