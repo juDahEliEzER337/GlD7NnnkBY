@@ -100,7 +100,6 @@
 3. 《Hands-On Large Language Models》
 4. 《大模型应用开发极简入门：基于GPT-4和ChatGPT》（*Developing Apps with GPT-4 and ChatGPT*）
 
-#### 测试运维
 
 1. 《Selenium自动化测试：基于Python语言》（*Learning Selenium Testing Tools with Python*）
 2. 《pytest测试实战》（*Python Testing with pytest*）
